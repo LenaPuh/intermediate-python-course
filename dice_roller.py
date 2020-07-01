@@ -3,8 +3,8 @@ import random
 
 def main():
 
-    dice_rolls = 5
-    while dice_rolls >= 3:
+    dice_rolls = 3
+    while dice_rolls <= 3:
       dice_rolls = int(input('How many dice would you like to roll? '))
     dice_size = int(input('How many sides are the dice? '))
     dice_sum = 0
